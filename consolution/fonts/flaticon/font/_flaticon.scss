@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 15/08/2019 02:46
+    Creation date: 28/10/2019 06:56
     */
 
     @font-face {
@@ -37,20 +37,42 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-collaboration:before { content: "\f100"; }
-.flaticon-search-engine:before { content: "\f101"; }
-.flaticon-analysis:before { content: "\f102"; }
-.flaticon-handshake:before { content: "\f103"; }
-.flaticon-business:before { content: "\f104"; }
-.flaticon-insurance:before { content: "\f105"; }
-.flaticon-money:before { content: "\f106"; }
-.flaticon-rating:before { content: "\f107"; }
+    .flaticon-content:before { content: "\f100"; }
+.flaticon-gdpr:before { content: "\f101"; }
+.flaticon-account:before { content: "\f102"; }
+.flaticon-bin:before { content: "\f103"; }
+.flaticon-contract:before { content: "\f104"; }
+.flaticon-folder:before { content: "\f105"; }
+.flaticon-data:before { content: "\f106"; }
+.flaticon-chart:before { content: "\f107"; }
+.flaticon-chart-1:before { content: "\f108"; }
+.flaticon-data-network:before { content: "\f109"; }
+.flaticon-cloud-service:before { content: "\f10a"; }
+.flaticon-ui:before { content: "\f10b"; }
+.flaticon-project:before { content: "\f10c"; }
+.flaticon-project-1:before { content: "\f10d"; }
+.flaticon-project-2:before { content: "\f10e"; }
+.flaticon-idea:before { content: "\f10f"; }
+.flaticon-growth:before { content: "\f110"; }
+.flaticon-report:before { content: "\f111"; }
+.flaticon-analytics:before { content: "\f112"; }
     
-    $font-Flaticon-collaboration: "\f100";
-    $font-Flaticon-search-engine: "\f101";
-    $font-Flaticon-analysis: "\f102";
-    $font-Flaticon-handshake: "\f103";
-    $font-Flaticon-business: "\f104";
-    $font-Flaticon-insurance: "\f105";
-    $font-Flaticon-money: "\f106";
-    $font-Flaticon-rating: "\f107";
+    $font-Flaticon-content: "\f100";
+    $font-Flaticon-gdpr: "\f101";
+    $font-Flaticon-account: "\f102";
+    $font-Flaticon-bin: "\f103";
+    $font-Flaticon-contract: "\f104";
+    $font-Flaticon-folder: "\f105";
+    $font-Flaticon-data: "\f106";
+    $font-Flaticon-chart: "\f107";
+    $font-Flaticon-chart-1: "\f108";
+    $font-Flaticon-data-network: "\f109";
+    $font-Flaticon-cloud-service: "\f10a";
+    $font-Flaticon-ui: "\f10b";
+    $font-Flaticon-project: "\f10c";
+    $font-Flaticon-project-1: "\f10d";
+    $font-Flaticon-project-2: "\f10e";
+    $font-Flaticon-idea: "\f10f";
+    $font-Flaticon-growth: "\f110";
+    $font-Flaticon-report: "\f111";
+    $font-Flaticon-analytics: "\f112";

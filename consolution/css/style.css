@@ -8193,6 +8193,10 @@ h1, h2, h3, h4, h5,
       .topper .text span:first-child {
         font-weight: 700;
         color: #000000; }
+      .topper .text a {
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 15px;
+      }
   .topper .d-block {
     width: 100%; }
   .topper .btn {
@@ -8760,7 +8764,8 @@ h1, h2, h3, h4, h5,
   .services .media-body h3 {
     font-weight: 700;
     font-size: 20px;
-    color: #0d436b; }
+    color: #0d436b;
+    margin-top: 1em; }
   .services.active, .services:hover {
     background: #7cc24d; }
     .services.active .icon span, .services:hover .icon span {
@@ -8769,6 +8774,53 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.9); }
       .services.active .media-body h3, .services:hover .media-body h3 {
         color: #fff; }
+
+
+
+.services-3 {
+  background: #0d436b;
+  padding-left: 1.25rem;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-bottom: 1em; }
+  .services-3 .icon {
+    line-height: 1.3;
+    position: relative;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+    .services-3 .icon span {
+      font-size: 50px;
+      color: #fff }
+    .services-3 .is span {
+      font-size: 55px !important;
+      line-height: 1.3;
+    }  
+  @media (max-width: 767.98px) {
+    .services-3 .media-body {
+      padding-bottom: 3.5em !important; } }
+  .services-3 .media-body h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-top: .6em;
+    margin-left: .6em; }
+  .services-3.active, .services:hover {
+    background: #7cc24d; }
+    .services-3.active .icon span, .services:hover .icon span {
+      color: #fff; }
+    .services-3.active .media-body, .services:hover .media-body {
+      color: rgba(255, 255, 255, 0.9); }
+      .services-3.active .media-body h3, .services:hover .media-body h3 {
+        color: #fff; }
+
+
+
 
 .services-2 {
   border-left: 1px solid rgba(0, 0, 0, 0.05);
