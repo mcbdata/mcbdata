@@ -8291,7 +8291,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     padding-left: 20px;
@@ -8459,7 +8459,6 @@ h1, h2, h3, h4, h5,
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 300px; }
       .hero-wrap.hero-wrap-2 .slider-text .bread {
-        font-weight: 900;
         color: #fff; }
       .hero-wrap.hero-wrap-2 .slider-text .breadcrumbs {
         text-transform: uppercase;
@@ -8554,8 +8553,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 60px;
           color: #fff;
-          line-height: 1.2;
-          font-weight: 900; }
+          line-height: 1.2;}
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             display: block; }
           @media (max-width: 991.98px) {
@@ -8813,6 +8811,125 @@ h1, h2, h3, h4, h5,
         color: #fff; }
 
 
+.team-section {
+  background: #f3f7f9;
+  overflow: hidden;
+}
+
+.team-members {
+  margin: 0 auto;
+}
+
+.member {
+  background: #fff;
+  width: 100%;
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  padding: 50px 10px;
+  -webkit-box-shadow: 1px 1px 1px rgba(33, 54, 61, 0.15);
+          box-shadow: 1px 1px 1px rgba(33, 54, 61, 0.15);
+  border-radius: 10px;
+  position: relative;
+}
+
+.member h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.member span {
+  font-size: 14px;
+  color: #75849a;
+  display: block;
+}
+
+.member .member-text {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 1;
+}
+
+.member:hover {
+  -webkit-box-shadow: 1px 14px 43px rgba(33, 54, 61, 0.15);
+          box-shadow: 1px 14px 43px rgba(33, 54, 61, 0.15);
+}
+
+.member:hover .member-info {
+  opacity: 1;
+}
+
+.member:hover .member-text {
+  opacity: 0;
+}
+
+.member-img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.member-social {
+  padding-top: 25px;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.member-social a {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #cbd3df;
+  color: #fff;
+  padding-top: 13px;
+  margin: 0 8px;
+}
+
+.member-meta {
+  padding-left: 85px;
+}
+
+.member-info {
+
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: left;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  height: 380px;
+  overflow-y: auto;
+}
+
+.member-info p {
+  display: block;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+
+.mip-1 {
+  padding: 20px 40px 10px;
+}
+
+.mip-2 {
+  padding: 20px 20px 10px;
+}
+
+.member-img.mf {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  float: left;
+  margin-bottom: 0;
+}
 .obj-title {
   color:#FFF; 
   text-align: left;
@@ -8869,7 +8986,6 @@ h1, h2, h3, h4, h5,
     .services-3 .media-body {
       padding-bottom: 3.5em !important; } }
   .services-3 .media-body h3 {
-    font-weight: 700;
     font-size: 20px;
     color: #fff;
     margin-top: .6em;
@@ -9266,6 +9382,10 @@ textarea.form-control {
   background: #5b6670;
 }
 
+.grey-bg-2 {
+  background: #f3f7f9;
+}
+
 .green-border {
 
 }
@@ -9468,8 +9588,7 @@ textarea.form-control {
   position: relative; }
 
 .heading-section h2 {
-  font-size: 34px;
-  font-weight: 700; }
+  font-size: 44px; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
@@ -9654,16 +9773,8 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: .8;
-    background: #0d436b;
-    background: #7cc24d;
-    background: -moz-linear-gradient(left, #7cc24d 0%, #0d436b 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, #7cc24d), color-stop(100%, #0d436b));
-    background: -webkit-linear-gradient(left, #7cc24d 0%, #0d436b 100%);
-    background: -o-linear-gradient(left, #7cc24d 0%, #0d436b 100%);
-    background: -ms-linear-gradient(left, #7cc24d 0%, #0d436b 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#7cc24d), to(#0d436b));
-    background: linear-gradient(to right, #7cc24d 0%, #0d436b 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cc24d', endColorstr='#0d436b', GradientType=1 ); }
+
+   }
   .ftco-intro .btn {
     width: 100%; }
   .ftco-intro h2 {
