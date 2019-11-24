@@ -2105,8 +2105,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff; }
+  background-color: #7cc24d;
+  border-color: #7cc24d; }
   .btn-primary:hover {
     color: #fff;
     background-color: #0069d9;
@@ -2116,8 +2116,8 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff; }
+    background-color: #7cc24d;
+    border-color: #7cc24d; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -8445,15 +8445,8 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .9;
-    background: #1566ad;
-    background: -moz-linear-gradient(left, #7cc24d 0%, #0d436b 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, #7cc24d), color-stop(100%, #0d436b));
-    background: -webkit-linear-gradient(left, #7cc24d 0%, #0d436b 100%);
-    background: -o-linear-gradient(left, #7cc24d 0%, #0d436b 100%);
-    background: -ms-linear-gradient(left, #7cc24d 0%, #0d436b 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#7cc24d), to(#0d436b));
-    background: linear-gradient(to right, #7cc24d 0%, #0d436b 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cc24d', endColorstr='#0d436b', GradientType=1 ); }
+    background: #5b6670;
+   }
   .hero-wrap.hero-wrap-2 {
     height: 300px; }
     .hero-wrap.hero-wrap-2 .slider-text {
@@ -8811,6 +8804,14 @@ h1, h2, h3, h4, h5,
         color: #fff; }
 
 
+
+@media (max-width: 767.98px) {
+  .obj-mobile {
+    vertical-align: middle;
+  }
+}
+
+
 .team-section {
   background: #f3f7f9;
   overflow: hidden;
@@ -8992,7 +8993,7 @@ h1, h2, h3, h4, h5,
     }  
   @media (max-width: 767.98px) {
     .services-3 .media-body {
-      padding-bottom: 3.5em !important; } }
+      padding-bottom: 1em !important; } }
   .services-3 .media-body h3 {
     font-size: 20px;
     color: #fff;
