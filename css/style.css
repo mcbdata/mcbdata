@@ -8833,6 +8833,11 @@ h1, h2, h3, h4, h5,
   position: relative;
 }
 
+@media (max-width: 767.98px) {
+  .acq-h {height: 25em;}
+
+}
+
 .member h2 {
   font-size: 22px;
   margin-bottom: 5px;
@@ -8905,13 +8910,12 @@ h1, h2, h3, h4, h5,
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-  height: 380px;
-  overflow-y: auto;
+
 }
 
 .member-info p {
   display: block;
-  padding-top: 25px;
+  padding-top: 15px;
   margin-bottom: 0;
 }
 
@@ -8920,9 +8924,13 @@ h1, h2, h3, h4, h5,
 }
 
 .mip-2 {
-  padding: 20px 20px 10px;
+  padding: 10px 20px 10px;
 }
 
+.service-p {
+  padding: 0px 10px 0px 10px;
+
+}
 .member-img.mf {
   width: 100px;
   height: 100px;
