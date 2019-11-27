@@ -8839,8 +8839,10 @@ h1, h2, h3, h4, h5,
 }
 
 @media (max-width: 767.98px) {
-  .acq-h {height: 25em;}
-
+  .reg-h {height: 26em;}
+  .def-h {height: 24em;}
+  .acq-h {height: 31em;}
+  .inf-h {height: 29em;}
 }
 
 .member h2 {
