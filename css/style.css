@@ -8857,18 +8857,11 @@ h1, h2, h3, h4, h5,
 }
 
 .member .member-text {
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
   opacity: 1;
 }
 
 @media (max-width: 767.98px) {
   .member .member-text {
-    -webkit-transition-property: none;
-    -moz-transition-property: none;
-    -o-transition-property: none;
-    transition-property: none;
     opacity: 1;
   }
 }
@@ -8922,9 +8915,6 @@ h1, h2, h3, h4, h5,
   left: 0;
   text-align: left;
   opacity: 0;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
 
 }
 
