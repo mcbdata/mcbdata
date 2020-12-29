@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-    <link rel="shortcut icon" href="images/mcb-favicon.png">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/mcb-favicon.png">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158126022-1"></script>
@@ -27,7 +27,7 @@
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a href="index.html"><img class="navbar-brand" href="index.html" src="images/mcb2.png"></a>
+    				<a href="index.html"><img class="navbar-brand" href="index.html" src="<?php echo get_template_directory_uri(); ?>/images/mcb2.png"></a>
     			</div>
 	    		<div class="col-lg-8 d-block">
 		    		<div class="row d-flex">
