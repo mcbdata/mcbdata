@@ -1,5 +1,3 @@
-   </section>
-
 		
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">

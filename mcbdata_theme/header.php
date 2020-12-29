@@ -112,5 +112,4 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
-    
-    <section class="home-slider owl-carousel">
+ 
