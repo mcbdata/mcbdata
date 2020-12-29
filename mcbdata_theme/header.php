@@ -8,6 +8,19 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
+    
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/aos.css">
+
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/flaticon.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/icomoon.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/mcb-favicon.png">
 
