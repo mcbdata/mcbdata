@@ -4,7 +4,7 @@
     <h2 class="entry-title"><?php the_title(); ?></h2>
     <?php if ( !is_page() ):?>
       <section class="entry-meta">
-      <p>Posted on <?php the_date();?> by <?php the_author();?></p>
+      <p>Posted on <?php the_date();?> by <?php the_author_posts_link();?></p>
       </section>
     <?php endif; ?>
     <section class="entry-content">
