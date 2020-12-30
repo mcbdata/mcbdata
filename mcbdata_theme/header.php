@@ -115,4 +115,3 @@
      <section class="ftco-section">
 		<div class="container">
 			<div class="row">
-          		<div class="col-lg-8 ftco-animate">

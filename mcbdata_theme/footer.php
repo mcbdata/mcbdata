@@ -1,4 +1,3 @@
-          </div><!-- END COL -->
         </div>
       </div>
     </section>
