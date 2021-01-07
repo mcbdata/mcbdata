@@ -101,12 +101,13 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="what-we-do.html" class="nav-link">What We Do</a></li>
-	        	<li class="nav-item"><a href="why-us.html" class="nav-link">Why Us</a></li>
-	        	<li class="nav-item"><a href="what-we-provide.html" class="nav-link">What We Provide</a></li>
-	        	<li class="nav-item"><a href="perspectives.html" class="nav-link">Perspectives</a></li>
-	            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<p></p>
+	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/' ? ' active' : ''); ?>"><a href="/" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/what-we-do.html' ? ' active' : ''); ?>"><a href="/what-we-do.html" class="nav-link">What We Do</a></li>
+	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/why-us.html' ? ' active' : ''); ?>"><a href="/why-us.html" class="nav-link">Why Us</a></li>
+	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/what-we-provide.html' ? ' active' : ''); ?>"><a href="/what-we-provide.html" class="nav-link ">What We Provide</a></li>
+	        	<li class="nav-item<?php echo (((strpos($_SERVER['REQUEST_URI'], '/?p=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/posts/') !== false)|| (strpos($_SERVER['REQUEST_URI'], '/?cat=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/author/') !== false)) ? ' active' : ''); ?>"><a href="/?p=all" class="nav-link">Perspectives</a></li>
+	            <li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/contact.html' ? ' active' : ''); ?>"><a href="/contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
