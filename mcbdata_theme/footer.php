@@ -21,12 +21,13 @@
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
-                <li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                <li><a href="what-we-do.html"><span class="ion-ios-arrow-round-forward mr-2"></span>What We Do</a></li>
-                <li><a href="why-us.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Why Us</a></li>
-                <li><a href="what-we-provide.html"><span class="ion-ios-arrow-round-forward mr-2"></span>What We Provide</a></li>
-                <li><a href="perspectives.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Perspectives</a></li>
-                <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="/"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="/what-we-do.html"><span class="ion-ios-arrow-round-forward mr-2"></span>What We Do</a></li>
+                <li><a href="/why-us.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Why Us</a></li>
+                <li><a href="/what-we-provide.html"><span class="ion-ios-arrow-round-forward mr-2"></span>What We Provide</a></li>
+                <li><a href="/?p=all"><span class="ion-ios-arrow-round-forward mr-2"></span>Resources</a></li>
+                <li><a href="/contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="/privacy-policy.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Privacy Policy</a></li>
               </ul>
             </div>
           </div>

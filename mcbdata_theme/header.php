@@ -106,7 +106,7 @@
 	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/what-we-do.html' ? ' active' : ''); ?>"><a href="/what-we-do.html" class="nav-link">What We Do</a></li>
 	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/why-us.html' ? ' active' : ''); ?>"><a href="/why-us.html" class="nav-link">Why Us</a></li>
 	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/what-we-provide.html' ? ' active' : ''); ?>"><a href="/what-we-provide.html" class="nav-link ">What We Provide</a></li>
-	        	<li class="nav-item<?php echo (((strpos($_SERVER['REQUEST_URI'], '/?p=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/posts/') !== false)|| (strpos($_SERVER['REQUEST_URI'], '/?cat=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/author/') !== false)) ? ' active' : ''); ?>"><a href="/?p=all" class="nav-link">Perspectives</a></li>
+	        	<li class="nav-item<?php echo (((strpos($_SERVER['REQUEST_URI'], '/?p=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/resources/') !== false) || (strpos($_SERVER['REQUEST_URI'], '/?cat=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/category/') !== false) || (strpos($_SERVER['REQUEST_URI'], '/author/') !== false)) ? ' active' : ''); ?>"><a href="/?p=all" class="nav-link">Resources</a></li>
 	            <li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/contact.html' ? ' active' : ''); ?>"><a href="/contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
