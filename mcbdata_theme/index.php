@@ -67,6 +67,13 @@
 	      <span class="category-links">
 	        Posted under: <?php echo get_the_category_list( ', ' ); ?>
 	      </span>
+	      <div class="about-author d-flex p-4 bg-light">
+	        <div class="desc">
+	        	<h2>About MCBD</h2>
+	        	<p>MC Bernstein Data helps companies achieve their objectives related to Information Governance, including data privacy and protection; regulatory, litigation, and consumer responsiveness; information security; acquisitions and divestitures compliance; records management; data licensing management; and operational efficiency.</p>
+	        </div>
+	      </div>
+	      <?php foreach(get_multiple_authors() as $author) { echo "<div class='about-author d-flex p-4 bg-light'><div class='bio mr-5'><img src='/wp-content/uploads/".str_replace(' ', '-', strtolower($author->display_name)).".jpg' alt='".$author->display_name."' class='img-fluid mb-4'></div><div class='desc'><h2>About the Author</h2><h3><a href='".$author->link."'>".$author->display_name."</a></h3><p>".$author->get_meta('description')."</p></div></div>"; } ?>
 	    <?php endif; ?></section>
 	  </article>
 	<?php endwhile; ?>
