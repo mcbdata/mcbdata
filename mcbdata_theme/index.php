@@ -10,6 +10,12 @@
 	    <div class="row no-gutters slider-text align-items-center justify-content-center">
 	      <div class="col-md-9 ftco-animate text-center">
 	        <h1 class="mb-2 bread">Information Governance Resources</h1>
+			<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+				<?php if(function_exists('bcn_display'))
+				{
+				    bcn_display();
+				}?>
+	        </div>
 	      </div>
 	    </div>
 	  </div>
@@ -25,6 +31,12 @@
 	    <div class="row no-gutters slider-text align-items-center justify-content-center">
 	      <div class="col-md-9 ftco-animate text-center">
 	        <h1 class="mb-2 bread"><?php single_cat_title(); ?></h1>
+			<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+				<?php if(function_exists('bcn_display'))
+				{
+				    bcn_display();
+				}?>
+			</div>
 	      </div>
 	    </div>
 	  </div>
@@ -40,6 +52,12 @@
 		    <div class="row no-gutters slider-text align-items-center justify-content-center">
 		      <div class="col-md-9 ftco-animate text-center">
 		        <h1 class="mb-2 bread"><?php the_title(); ?></h1>
+				<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+				    <?php if(function_exists('bcn_display'))
+				    {
+				        bcn_display();
+				    }?>
+			    </div>
 		      </div>
 		    </div>
 		  </div>
@@ -48,12 +66,6 @@
 <?php if ($_SERVER['REQUEST_URI'] == '/?p=all' || (strpos($_SERVER['REQUEST_URI'], '/?cat=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/category/') !== false)) : ?>
     <section class="ftco-section" style="margin-top: -3.5em">
 		<div class="container">
-			<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
-			    <?php if(function_exists('bcn_display'))
-			    {
-			        bcn_display();
-			    }?>
-			</div>
 			<div class="row">
 				<div class="col-md-10 ftco-animate">
 					<div class="row">
@@ -84,12 +96,6 @@
 	<?php if (strpos($_SERVER['REQUEST_URI'], '/resources/') !== false) : ?>
 	    <section class="ftco-section" style="margin-top: -3.5em">
 			<div class="container">
-				<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
-				    <?php if(function_exists('bcn_display'))
-				    {
-				        bcn_display();
-				    }?>
-				</div>
 				<div class="row">
 					<div class="col-md-10 ftco-animate">
 						<div class="row">
