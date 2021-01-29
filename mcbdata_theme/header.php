@@ -40,7 +40,7 @@
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a href="index.html"><img class="navbar-brand" href="index.html" src="<?php echo get_template_directory_uri(); ?>/images/mcb2.png"></a>
+    				<a href="/"><img class="navbar-brand" href="/" src="<?php echo get_template_directory_uri(); ?>/images/mcb2.png"></a>
     			</div>
 	    		<div class="col-lg-8 d-block">
 		    		<div class="row d-flex">
@@ -82,12 +82,16 @@
 	        </button>
 	      </div>
 	      <div class="ftco-footer ftco-footer-widget">
-	               <form action="https://formspree.io/info@bernsteindata.com" method="POST" class="subscribe-form"/>
-	                <div class="form-group">
-	                  <input type="text" name="email" id="email" class="form-control mb-2 text-center" placeholder="Enter email address">
-	                  <input type="submit" value="Subscribe" class="form-control submit px-3">
-	                </div>
-	              </form>
+					<!--[if lte IE 8]>
+					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+					<![endif]-->
+					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+					<script>
+					  hbspt.forms.create({
+						portalId: "8333481",
+						formId: "3c863c68-1b6c-4b47-888c-666392fb68e7"
+					});
+					</script>
 	              <h6>MC Bernstein Data is committed to protecting and respecting your privacy, and we’ll only use your personal information to provide our content that may be of interest to you.</h6>	
 	      </div>
 	    </div>
@@ -103,11 +107,11 @@
 	        <ul class="navbar-nav">
 	        	<p></p>
 	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/' ? ' active' : ''); ?>"><a href="/" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/what-we-do.html' ? ' active' : ''); ?>"><a href="/what-we-do.html" class="nav-link">What We Do</a></li>
-	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/why-us.html' ? ' active' : ''); ?>"><a href="/why-us.html" class="nav-link">Why Us</a></li>
-	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/what-we-provide.html' ? ' active' : ''); ?>"><a href="/what-we-provide.html" class="nav-link ">What We Provide</a></li>
-	        	<li class="nav-item<?php echo (((strpos($_SERVER['REQUEST_URI'], '/?p=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/resources/') !== false) || (strpos($_SERVER['REQUEST_URI'], '/?cat=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/category/') !== false) || (strpos($_SERVER['REQUEST_URI'], '/author/') !== false)) ? ' active' : ''); ?>"><a href="/?p=all" class="nav-link">Resources</a></li>
-	            <li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/contact.html' ? ' active' : ''); ?>"><a href="/contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/what-we-do' ? ' active' : ''); ?>"><a href="/what-we-do" class="nav-link">What We Do</a></li>
+	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/why-us' ? ' active' : ''); ?>"><a href="/why-us" class="nav-link">Why Us</a></li>
+	        	<li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/what-we-provide' ? ' active' : ''); ?>"><a href="/what-we-provide" class="nav-link ">What We Provide</a></li>
+	        	<li class="nav-item<?php echo (((strpos($_SERVER['REQUEST_URI'], '/?p=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/resources/') !== false) || (strpos($_SERVER['REQUEST_URI'], '/?cat=') !== false) || (strpos($_SERVER['REQUEST_URI'], '/category/') !== false) || (strpos($_SERVER['REQUEST_URI'], '/author/') !== false)) ? ' active' : ''); ?>"><a href="/resources/" class="nav-link">Resources</a></li>
+	            <li class="nav-item<?php echo ($_SERVER['REQUEST_URI'] == '/contact' ? ' active' : ''); ?>"><a href="/contact" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>

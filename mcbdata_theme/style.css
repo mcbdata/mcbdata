@@ -19,6 +19,11 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Daniel Eden
 */
 
+.wp-image-138 {
+  width: 100%;
+  height: auto;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -69,6 +74,33 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
+
+.hs-button {
+  color: #fff;
+  background-color: #7cc24d !important;
+  border: 1px solid #7cc24d !important;
+  background: #7cc24d !important;
+  border-color: 1px solid #7cc24d !important;
+  font-weight: 400 !important;
+  padding-left: 3rem !important;
+  padding-right:3rem !important;
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  border-radius: 40px !important;
+}
+ .hs-button:hover {
+    color: #7cc24d;
+  background-color: #ffffff !important;
+  border: 1px solid #7cc24d !important;
+  background: #ffffff !important;
+  border-color: 1px solid #7cc24d !important;
+    font-weight: 400;
+    padding-left: 3rem !important;
+    padding-right:3rem !important;
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+  border-radius: 40px;
+}
 
 body {
   margin: 0;
@@ -2344,6 +2376,33 @@ fieldset:disabled a.btn {
     .show > .btn-dark.dropdown-toggle:focus {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
       box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5); }
+
+.hs-button {
+  color: #fff;
+  background-color: #7cc24d !important;
+  border: 1px solid #7cc24d !important;
+  background: #7cc24d !important;
+  border-color: 1px solid #7cc24d !important;
+  font-weight: 400 !important;
+  padding-left: 3rem !important;
+  padding-right:3rem !important;
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  border-radius: 40px !important;
+}
+ .hs-button:hover {
+    color: #7cc24d;
+   background-color: #7cc24d !important;
+   border: 1px solid #7cc24d !important;
+   background: #7cc24d !important;
+   border-color: 1px solid #7cc24d !important;
+    font-weight: 400;
+    padding-left: 3rem !important;
+    padding-right:3rem !important;
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+  border-radius: 40px;
+}
 
 .btn-outline-primary {
   color: #007bff;
@@ -8911,14 +8970,6 @@ h1, h2, h3, h4, h5,
 .member:hover {
   -webkit-box-shadow: 1px 14px 43px rgba(33, 54, 61, 0.15);
           box-shadow: 1px 14px 43px rgba(33, 54, 61, 0.15);
-}
-
-.member:hover .member-info {
-  opacity: 1;
-}
-
-.member:hover .member-text {
-  opacity: 0;
 }
 
 .member-img {

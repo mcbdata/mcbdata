@@ -5,4 +5,5 @@
 		'page',
 		'custom-post-type-name',
 	));
+	add_filter( 'wpseo_json_ld_output', '__return_false' );
 ?>

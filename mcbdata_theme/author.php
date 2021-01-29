@@ -1,11 +1,9 @@
 <?php get_header(); ?>
-	<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/" style="margin-top: -5em; margin-bottom: 1.5em;">
-		<?php if(function_exists('bcn_display'))
-{
-	bcn_display();
-}?>
+	<div class="col-md-8"></div>
+	<div class="col-md-4 breadcrumbs text-right" typeof="BreadcrumbList" vocab="https://schema.org/" style="margin-top: -3.5em">
+		<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Home" href="/" class="%type%" bcn-aria-current><span property="name">Home</span></a><meta property="position" content="%position%"><span> &gt;  </span><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Resources" href="/resources/" class="%type%" bcn-aria-current><span property="name">Resources</span></a><meta property="position" content="%position%"><span> &gt;  </span><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="<?php the_author_meta('display_name', get_user_by('slug', $_SERVER['REQUEST_URI'])['id']); ?>" href="<?php echo $_SERVER['REQUEST_URI'] ?>" class="%type%" bcn-aria-current><span property="name"><?php the_author_meta('display_name', get_user_by('slug', $_SERVER['REQUEST_URI'])['id']); ?></span></a><meta property="position" content="%position%"></span></span>
 	</div>
-	<div class="about-author d-flex p-4 bg-light" style="margin-top: -3.5em">
+	<div class="about-author d-flex p-4 bg-light">
 		<div class="bio mr-5">
 			<img src="<?php echo '/wp-content/uploads'.str_replace('/author', '', rtrim($_SERVER['REQUEST_URI'], '/')).'.jpg' ?>" alt="<?php the_author_meta('display_name', get_user_by('slug', $_SERVER['REQUEST_URI'])['id']); ?>" class="img-fluid mb-4">
 		</div>
